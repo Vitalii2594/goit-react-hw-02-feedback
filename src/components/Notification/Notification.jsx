@@ -1,7 +1,5 @@
-import PropTypes from 'prop-types';
+import { Message } from './Notification.styled';
 
-export const Notification = ({ message }) => <h2>{message}</h2>;
-
-Notification.propTypes = {
-  message: PropTypes.string.isRequired,
+export const Notification = ({ message }) => {
+  return <Message>{message}</Message>;
 };

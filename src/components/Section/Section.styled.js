@@ -5,8 +5,7 @@ export const Sections = styled.section`
   height: 270px;
   margin: 20px;
   padding: 0px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+
   align-content: center;
   text-align: center;
 `;

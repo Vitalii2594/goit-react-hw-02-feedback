@@ -13,22 +13,14 @@ export const SettingsEl = styled.li`
 export const SettingsButton = styled.button`
   padding: 10px 20px;
   background-color: ${props =>
-    props.option === 'good'
-      ? '#28a745'
-      : props.option === 'neutral'
-      ? '#ffc107'
-      : '#dc3545'};
-  color: #fff;
+    props.option === 'good' ? '' : props.option === 'neutral'};
+  color: #00000;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 
   &:hover {
     background-color: ${props =>
-      props.option === 'good'
-        ? '#218838'
-        : props.option === 'neutral'
-        ? '#e0a800'
-        : '#c82333'};
+      props.option === 'good' ? '' : props.option === 'neutral'};
   }
 `;

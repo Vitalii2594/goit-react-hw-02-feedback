@@ -14,10 +14,10 @@ export const Text = styled.p`
 
   background-color: ${props =>
     props.type === 'good'
-      ? '#28a745'
+      ? '#388e3c'
       : props.type === 'neutral'
-      ? '#ffc107'
+      ? '#fbc02d'
       : props.type === 'bad'
-      ? '#dc3545'
+      ? '#d32f2f'
       : 'black'};
 `;
